@@ -1,0 +1,27 @@
+/*
+ The original class name .paginate is changed into .pagination to avoid confusion if used in parallel with the boot-strap version
+*/
+
+.pagination { display: flex; }
+.pagination a {
+  color: #000;
+  background: #f2f2f2;
+  padding: 8px 10px;
+  margin: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pagination a.current {
+  color: #fff;
+  background: #4486ff;
+  
+
+}
+
+.pagination a:hover {
+  color: #000;
+  background: #ffe9e9;
+}
+
+
+
